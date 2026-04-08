@@ -2,7 +2,7 @@ def main() -> None:
     num_of_nums: int = 10
     count: int = 1
 
-    max_num = 0
+    max_num: int = 0
 
     while count <= num_of_nums:
         curr_num: int = int(input(f"Enter number {count}: "))
